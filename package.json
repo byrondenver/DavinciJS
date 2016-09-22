@@ -48,6 +48,7 @@
     "html-webpack-plugin": "^2.9.0",
     "img-loader": "^1.2.2",
     "json-loader": "^0.5.4",
+    "lscache": "1.0.7",
     "jquery": "2.2.0",
     "modernizr-webpack-plugin": "^1.0.5",
     "node-sass": "^3.4.2",
