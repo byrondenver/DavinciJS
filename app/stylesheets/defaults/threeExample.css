@@ -1,0 +1,9 @@
+body {
+				color: #fff;
+				font-family:Monospace;
+				font-size:13px;
+				margin: 0px;
+				text-align:center;
+				overflow: hidden;
+			}
+#info{ position: absolute; width: 100%; padding: 5px; }
