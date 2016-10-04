@@ -3,8 +3,8 @@
   "version": "0.0.5",
   "private": false,
   "license": "MIT",
-  "author": "bishopz <eduatx@gmail.com>",
-  "description": "boilerplate for web animators",
+  "author": "bw <blwhitehorn@gmail.com>",
+  "description": "Interactive Resume",
   "main": "index.js",
   "scripts": {
     "dev": "npm run clean && nodemon server/index.js --watch server",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bishopZ/kabuki-motion.git"
+    "url": "git@github.com:byrondenver/git@github.com:byrondenver/DavinciJS.git.git"
   },
   "dependencies": {
     "autoprefixer": "^6.1.2",

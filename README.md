@@ -1,5 +1,12 @@
 
 
+# This is my awesome resume
+
+-l inks to LinkedIn page, codepen.io ... social media
+- Intro paragraph
+- link to heroku App
+
+
 # To Use
 
 - Create a repo on Github

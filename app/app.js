@@ -30,6 +30,7 @@ $(function(){
 
   // kick off the app!
   // Which page are we on???
+  // this the page we're on
   if(window.location.pathname === '/pages/todo.html'){
     todoController.init();
   } else if (window.location.pathname === '/pages/multimediaController.html'){
@@ -39,4 +40,9 @@ $(function(){
   } else if (window.location.pathname === '/pages/threeExample.html'){
     threeController.init();
   }
+
+  console.log('')
+  console.log('Yo! Hire me! blwhitehorn@gmail.com')
+  console.log('')
+
 });
