@@ -2,7 +2,10 @@
 
 # This is my awesome resume
 
--l inks to LinkedIn page, codepen.io ... social media
+[I'm an inline-style link](https://www.linkedin.com)
+[I'm an inline-style link](https://www.codepen.com)
+[I'm an inline-style link](https://www.facebook.com)
+- l inks to LinkedIn page, codepen.io ... social media
 - Intro paragraph
 - link to heroku App
 

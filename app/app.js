@@ -16,7 +16,8 @@ import threeController from './pages/threeExample';
 
 // on document load
 $(function(){
-
+ // kick off the app!
+// this the page we're on
   console.log('%c App Started', 'color:green');
 
   
@@ -28,21 +29,35 @@ $(function(){
     escape:      /{{=([\s\S]+?)}}/g
   };
 
-  // kick off the app!
-  // Which page are we on???
-  // this the page we're on
-  if(window.location.pathname === '/pages/todo.html'){
+ 
+  // My first router: Which page are we on???
+ switch(window.location.pathname){
+ case '/pages/todo.html': 
     todoController.init();
-  } else if (window.location.pathname === '/pages/multimediaController.html'){
-    console.log('multimedia page started');
-  } else if (window.location.pathname === '/pages/Yo.html'){
+    break;case '/pages/multimediaController.html': 
+    todoController.init();
+    break;case '/pages/Yo.html': 
     d3Controller.init();
-  } else if (window.location.pathname === '/pages/threeExample.html'){
+    break;
+ case '/pages/threeExample.html': 
     threeController.init();
-  }
+    break;
 
-  console.log('')
-  console.log('Yo! Hire me! blwhitehorn@gmail.com')
-  console.log('')
+ }
+
+// Bad way to write this code
+  // if(window.location.pathname === '/pages/todo.html'){
+  //   todoController.init();
+  // } else if (window.location.pathname === '/pages/multimediaController.html'){
+  //   console.log('multimedia page started');
+  // } else if (window.location.pathname === '/pages/Yo.html'){
+  //   d3Controller.init();
+  // } else if (window.location.pathname === '/pages/threeExample.html'){
+  //   threeController.init();
+  // }
+
+  console.log('');
+  console.log('Yo! Hire me! blwhitehorn@gmail.com');
+  console.log('');
 
 });

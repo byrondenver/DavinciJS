@@ -1,0 +1,33 @@
+.todo-container {
+  min-width: 650px;
+  width: 650px;
+  min-height: 100px;
+  background-color: tan;
+  margin: 0 auto;
+  margin-top: 10px;
+   .title-row {
+    text-align: center;
+  }
+}
+.todo-container .todo{
+  background-color:  lightgrey;
+  front-size:24px;
+  padding: 12px 0px 0px 35px;
+  height: 55px;
+  &.completed {
+    background-color: inherit;
+  }
+  &.completed .todo-title{
+    color: lightgrey;
+    text-decoration: line-through;
+  }
+}
+.todo-container .todo {
+  font-size: 24px;
+  padding: 12px 0px 35px;
+  height: 55px;
+}
+.todo-container .close{
+  padding-right: 35px;
+  font-size: 30px;
+}
