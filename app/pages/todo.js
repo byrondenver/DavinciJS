@@ -30,19 +30,18 @@ var controller = {
     controller.createEventHandlers();
   },
   renderTemplates: function(){
-    var compiledTodos = [];
+    
     // get the database
     // loop over each item in the database
-    model.get().forEach(function(item, index){
+    var compiledTodos = model.get().map(function(item, index){
       // create an ID equal to index + 1
       // the +1 makes it more human readable
       // id is required by our view
       item.id = index + 1;
       // use hadlebars, step 2
       // this step replaces {id} with the id value
-      var renderedTodo = controller.compiledTemplate(item);
-      // add this render todo to our list of todos
-      compiledTodos.push(renderedTodo);
+     return controller.compiledTemplate(item);
+     
     });// end of forEach
     // pass list of todos to the render funtion
     controller.render(compiledTodos);

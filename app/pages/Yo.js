@@ -20,7 +20,7 @@ var app = {
       .attr('class', 'lines');
 
     var width = 960,
-        height = 450,
+      height = 450,
       radius = Math.min(width, height) / 2;
 
     var pie = d3.layout.pie()
